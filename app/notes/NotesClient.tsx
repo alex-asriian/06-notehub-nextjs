@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import NoteList from '@/components/NoteList/NoteList'
 import SearchBox from '@/components/SearchBox/SearchBox'
-import { fetchNotes } from '@/app/lib/api'
+import { fetchNotes } from '@/lib/api'
 import css from '@/app/notes/NotesPage.module.css'
 import { keepPreviousData, useQuery } from '@tanstack/react-query'
 import Modal from '@/components/Modal/Modal'
